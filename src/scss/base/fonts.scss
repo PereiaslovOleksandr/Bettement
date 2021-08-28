@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "GT America Compressed";
+	src: url("/fonts/GTAmerica-CompressedBold.woff2") format("woff2"),
+		url("/fonts/GTAmerica-CompressedBold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "GT America-bold";
+	src: url("/fonts/GTAmerica-Bold.woff2") format("woff2"),
+		url("/fonts/GTAmerica-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "GT America";
+	src: url("/fonts/GTAmerica-Regular.woff2") format("woff2"),
+		url("/fonts/GTAmerica-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

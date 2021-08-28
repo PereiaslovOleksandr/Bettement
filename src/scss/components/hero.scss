@@ -1,0 +1,71 @@
+.hero {
+	min-width: 1170px;
+
+	background-image: url(/images/common/hero.png);
+	background-position: right;
+	background-size: 95%;
+	background-repeat: no-repeat;
+	background-color: #1d6ae5;
+}
+.hero-text {
+	padding-top: 70px;
+	font-size: 110px;
+	line-height: 85px;
+	width: 100%;
+	margin-bottom: 24px;
+	margin-top: 40px;
+}
+.hero-text-castom {
+	background-image: url(/images/common/underline.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	padding-bottom: 120px;
+	font-size: 110px;
+	line-height: 85px;
+
+	margin-left: 30px;
+}
+
+.hero-main-text {
+	display: inline-block;
+	width: 565px;
+	color: #fff;
+	font-family: $font-family-primary;
+	margin-left: 110px;
+}
+.p-text {
+	font-size: 24px;
+	line-height: 34.8px;
+	color: #fff;
+	width: 471px;
+	margin-left: 0;
+	margin-bottom: 24px;
+	font-family: $font-family-secondary;
+}
+
+.hero-button {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+
+.hero-list-btn {
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	font-family: inherit;
+	text-align: center;
+	background-color: #30363d;
+	border: 0;
+	cursor: pointer;
+	font-family: $font-family-secondary;
+	padding: 15px 50px;
+
+	display: inline-block;
+	border-radius: 5px;
+	transition: background-color 0.15s ease-in;
+	&:hover {
+		background-color: #000;
+	}
+}
