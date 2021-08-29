@@ -18,6 +18,8 @@
 }
 
 .menu-items {
+	position: relative;
+	z-index: 99;
 	padding: 0;
 	margin: 0;
 	list-style: none;

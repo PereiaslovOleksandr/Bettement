@@ -1,12 +1,67 @@
 .hero {
-	min-width: 1170px;
-
-	background-image: url(../images/common/hero.png);
-	background-position: right;
-	background-size: 95%;
-	background-repeat: no-repeat;
 	background-color: #1d6ae5;
 }
+
+.hero .container {
+	position: relative;
+	overflow: hidden;
+}
+
+.hero .container > *:not(.bg-holder) {
+	position: relative;
+	z-index: 5;
+}
+
+.bg-holder {
+	background-image: url(../images/common/hero.png);
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 900px;
+	z-index: 2;
+	transform: translateX(1%);
+
+	background-position: right bottom;
+	background-repeat: no-repeat;
+
+	background-size: 660px;
+}
+
+@media (max-width: 1100px) {
+	.container {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 991px) {
+	.hero-main-text {
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+
+		padding-bottom: 400px;
+	}
+
+	.bg-holder {
+		top: auto;
+		bottom: 0;
+		right: 50%;
+		height: 100%;
+		width: 600px;
+		z-index: 2;
+		transform: translate(calc(50% + 23px), 0);
+
+		background-position: center bottom;
+
+		background-size: 600px;
+	}
+}
+
 .hero-text {
 	padding-top: 70px;
 	font-size: 110px;
@@ -15,6 +70,7 @@
 	margin-bottom: 24px;
 	margin-top: 40px;
 }
+
 .hero-text-castom {
 	background-image: url(../images/common/underline.svg);
 	background-position: center;
@@ -32,8 +88,8 @@
 	width: 565px;
 	color: #fff;
 	font-family: $font-family-primary;
-	margin-left: 110px;
-	padding-bottom: 100px;
+	margin-left: 45px;
+	padding-bottom: 20px;
 }
 .p-text {
 	font-size: 24px;
