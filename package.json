@@ -80,6 +80,7 @@
     "webpack-cli": "^4.7.2"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "focus-visible": "^5.2.0",
     "normalize.css": "^8.0.1",
     "smart-grid": "^2.1.2",
