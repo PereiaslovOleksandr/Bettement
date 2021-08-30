@@ -1,0 +1,42 @@
+.text-deposit {
+	font-family: $font-family-secondary;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	width: 313px;
+	margin: 25px 405px 0px;
+}
+
+.p-deposit {
+	font-family: $font-family-secondary;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	min-width: 446px;
+	line-height: 28px;
+	margin: 25px 330px 0px;
+	color: #30363d;
+}
+.link-fix {
+	position: relative;
+}
+.link-img {
+	width: 165px;
+	height: 60px;
+	position: absolute;
+	top: -20px;
+	right: 213px;
+}
+.input {
+	margin: 0;
+	padding-bottom: 45px;
+
+	width: 100%;
+	border-radius: 5px;
+	background-color: #1d6ae5;
+	opacity: 0.9;
+	transition: opacity 0.2s;
+	cursor: pointer;
+	border: 0;
+}
