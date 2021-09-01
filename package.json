@@ -80,9 +80,10 @@
     "webpack-cli": "^4.7.2"
   },
   "dependencies": {
-    "aos": "^2.3.4",
+    "aos": "^3.0.0-beta.6",
     "focus-visible": "^5.2.0",
     "normalize.css": "^8.0.1",
+    "scrollreveal": "^4.0.9",
     "smart-grid": "^2.1.2",
     "vanilla-lazyload": "^17.4.0"
   },

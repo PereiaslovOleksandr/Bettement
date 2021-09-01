@@ -1,0 +1,41 @@
+.four-list-btn {
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	font-family: inherit;
+	text-align: center;
+	background-color: #30363d;
+	border: 0;
+	cursor: pointer;
+	font-family: $font-family-secondary;
+	padding: 15px 50px;
+
+	display: inline-block;
+	border-radius: 5px;
+	transition: background-color 0.15s ease-in;
+	&:hover {
+		background-color: #000;
+	}
+}
+
+.cont-btn-text {
+	padding-top: 245px;
+	padding-left: 145px;
+}
+.fourh3 {
+	margin: 0;
+	color: #fff;
+	font-family: $font-family-secondary;
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+@media (max-width: 1800px) {
+	.bg-images-section {
+		background-image: url(/images/common/phone.png);
+		background-size: contain;
+		background-position: right;
+		background-repeat: no-repeat;
+		height: 536px;
+		background-color: #1d6ae5;
+	}
+}
