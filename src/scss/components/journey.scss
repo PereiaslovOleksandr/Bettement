@@ -1,0 +1,23 @@
+.img-journey {
+	width: 100%;
+	background-image: url(../images/common/journey.png);
+	background-size: 100%;
+	min-width: 100%;
+	min-height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.journey-h2 {
+	margin-top: 0;
+	font-family: $font-family-secondary;
+	font-size: 28px;
+	padding-top: 150px;
+}
+.journey-p {
+	margin-top: 0;
+	font-family: $font-family-secondary;
+	font-size: 16px;
+	text-align: left;
+	width: 500px;
+	color: rgb(104, 108, 115);
+}

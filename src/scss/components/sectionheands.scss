@@ -1,0 +1,54 @@
+.sect-one {
+	font-size: 16px;
+	font-family: font-family-secondary;
+
+	padding-bottom: 120px;
+}
+
+.bg-images-heands {
+	content: "";
+	background-image: url(../images/common/hands.svg);
+
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 500px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.sect-text-p {
+	white-space: normal;
+	display: inline-block;
+	width: 40%;
+	line-height: 24px;
+	font-size: 16px;
+	font-family: $font-family-secondary;
+	color: rgb(104, 108, 115);
+	text-align: left;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+.sect-heads {
+	background-color: #fff;
+	margin: 0;
+}
+
+.heands-h2 {
+	font-family: $font-family-secondary;
+	font-size: 28px;
+	font-weight: 600;
+
+	padding-top: 50px;
+	padding-bottom: 40px;
+	margin: 0;
+	text-align: left;
+}
+.sect-text-h3 {
+	text-align: left;
+	padding: 0;
+	font-family: $font-family-secondary;
+	font-size: 24px;
+	margin: 0;
+	margin-bottom: 30px;
+}

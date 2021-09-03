@@ -7,11 +7,12 @@
 @import "./base/mixins";
 @import "./components/header.scss";
 @import "./components/hero.scss";
-@import "./components/sectionone.scss";
-@import "./components/sectionanimation.scss";
-@import "./components/sectiondeposit.scss";
+@import "./components/sectionheands.scss";
+@import "./components/journey.scss";
 @import "./components/sectionthree.scss";
-@import "./components/sectionfour.scss";
+// @import "./components/sectionone.scss";
+// @import "./components/sectionanimation.scss";
+
 body {
 	background-color: #f3f4f8;
 }
