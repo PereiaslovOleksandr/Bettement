@@ -28,40 +28,6 @@
 	background-size: 660px;
 }
 
-@media (max-width: 1100px) {
-	.container {
-		width: 100% !important;
-	}
-}
-
-@media (max-width: 991px) {
-	.hero-main-text {
-		text-align: center;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
-		margin-left: auto;
-		margin-right: auto;
-
-		padding-bottom: 400px;
-	}
-
-	.bg-holder {
-		top: auto;
-		bottom: 0;
-		right: 50%;
-		height: 100%;
-		width: 600px;
-		z-index: 2;
-		transform: translate(calc(50% + 23px), 0);
-
-		background-position: center bottom;
-
-		background-size: 600px;
-	}
-}
-
 .hero-text {
 	padding-top: 70px;
 	font-size: 110px;
@@ -124,5 +90,94 @@
 	transition: background-color 0.15s ease-in;
 	&:hover {
 		background-color: #000;
+	}
+}
+@media (max-width: 991px) {
+	.hero-text {
+		padding-top: 10px;
+		font-size: 40px;
+		line-height: 40px;
+		width: 312px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	.hero-main-text {
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+
+		padding-bottom: 400px;
+	}
+
+	.bg-holder {
+		top: auto;
+		bottom: 0;
+		right: 50%;
+		height: 100%;
+		width: 600px;
+		z-index: 3;
+		transform: translate(calc(50% + 23px), 0);
+
+		background-position: center bottom;
+
+		background-size: 600px;
+	}
+	.hero-text-castom {
+		font-size: 40px;
+		width: 312px;
+		margin-left: 10px;
+		padding-bottom: 45px;
+		line-height: 5px;
+	}
+}
+@media (max-width: 597px) {
+	.hero-text {
+		padding-top: 10px;
+		font-size: 40px;
+
+		width: 298px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	.hero-main-text {
+		flex-direction: column;
+		max-width: 298px;
+		padding-bottom: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.bg-holder {
+		top: auto;
+		bottom: 0;
+		right: 50%;
+		height: 100%;
+		width: 600px;
+		z-index: 3;
+		transform: translate(calc(50% + 23px), 0);
+
+		background-position: center bottom;
+
+		background-size: 600px;
+	}
+	.hero-text-castom {
+		font-size: 40px;
+		width: 312px;
+		margin-left: 10px;
+		padding-bottom: 45px;
+		line-height: 5px;
+	}
+	.p-text {
+		font-size: 24px;
+		line-height: 34.8px;
+		color: #fff;
+		width: 298px;
+		margin-left: 0;
+		margin-bottom: 24px;
+		font-family: $font-family-secondary;
 	}
 }
