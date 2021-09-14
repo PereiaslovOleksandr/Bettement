@@ -75,6 +75,7 @@
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.19.0",
+    "svg-sprite-loader": "^6.0.9",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
     "webpack": "^5.46.0",
@@ -82,12 +83,13 @@
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
-    "bootstrap": "^5.1.0",
+    "bootstrap": "^5.1.1",
     "chart.js": "^3.5.1",
     "focus-visible": "^5.2.0",
     "normalize.css": "^8.0.1",
     "scrollreveal": "^4.0.9",
-    "vanilla-lazyload": "^17.4.0"
+    "vanilla-lazyload": "^17.4.0",
+    "vue-sidebar-menu": "^4.8.1"
   },
   "main": "gulpfile.babel.js",
   "repository": {

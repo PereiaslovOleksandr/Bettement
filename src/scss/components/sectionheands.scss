@@ -39,7 +39,6 @@
 	font-size: 28px;
 	font-weight: 600;
 
-	padding-top: 50px;
 	padding-bottom: 40px;
 	margin: 0;
 	text-align: left;
@@ -51,4 +50,92 @@
 	font-size: 24px;
 	margin: 0;
 	margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+	.bg-images-heands {
+		content: "";
+		background-image: url(../images/common/hands.svg);
+
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		background-size: 0px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.heands-h3 {
+		font-family: $font-family-secondary;
+		font-size: 28px;
+		font-weight: 600;
+		max-width: 100%;
+		padding-top: 50px;
+		padding-bottom: 40px;
+		margin: 0;
+		text-align: left;
+	}
+	.sect-text-p {
+		white-space: normal;
+		display: inline-block;
+		width: 100%;
+		line-height: 24px;
+		font-size: 16px;
+		font-family: $font-family-secondary;
+		color: rgb(104, 108, 115);
+		text-align: left;
+		margin: 0;
+		margin-bottom: 40px;
+	}
+	.heands-h2 {
+		font-family: $font-family-secondary;
+		font-size: 28px;
+		font-weight: 600;
+		width: 100%;
+		padding-bottom: 40px;
+		margin: 0;
+		text-align: left;
+	}
+}
+
+@media (max-width: 597px) {
+	.bg-images-heands {
+		content: "";
+		background-image: url(../images/common/hands.svg);
+
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		background-size: 0px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.heands-h3 {
+		font-family: $font-family-secondary;
+		font-size: 28px;
+		font-weight: 600;
+		max-width: 100%;
+		padding-top: 50px;
+		padding-bottom: 40px;
+		margin: 0;
+		text-align: left;
+	}
+	.sect-text-p {
+		white-space: normal;
+		display: inline-block;
+		width: 100%;
+		line-height: 24px;
+		font-size: 16px;
+		font-family: $font-family-secondary;
+		color: rgb(104, 108, 115);
+		text-align: left;
+		margin: 0;
+		margin-bottom: 40px;
+	}
+	.heands-h2 {
+		font-family: $font-family-secondary;
+		font-size: 28px;
+		font-weight: 600;
+		width: 100%;
+		padding-bottom: 40px;
+		margin: 0;
+		text-align: left;
+	}
 }

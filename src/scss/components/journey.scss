@@ -1,7 +1,7 @@
 .img-journey {
 	width: 100%;
 	background-image: url(../images/common/journey.png);
-	background-size: 100%;
+	background-size: 100% 100%;
 	min-width: 100%;
 	min-height: 500px;
 	background-position: center;
@@ -20,4 +20,58 @@
 	text-align: left;
 	width: 500px;
 	color: rgb(104, 108, 115);
+}
+
+@media (max-width: 991px) {
+	.img-journey {
+		background-image: url(../images/common/journey2.jpeg);
+
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		min-width: 100%;
+		min-height: 300px;
+	}
+	.journey-h2 {
+		margin-top: 0;
+		font-family: $font-family-secondary;
+		font-size: 18px;
+		padding-top: 0;
+	}
+	.journey-p {
+		margin-top: 0;
+		font-family: $font-family-secondary;
+		font-size: 16px;
+		text-align: left;
+		width: 100%;
+		color: rgb(104, 108, 115);
+		padding: 0;
+	}
+}
+
+@media (max-width: 597px) {
+	.img-journey {
+		background-image: url(../images/common/journey3.jpeg);
+
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		min-height: 200px;
+	}
+	.journey-h2 {
+		padding-top: 0;
+		margin-top: 0;
+		margin-bottom: 5px;
+		font-family: $font-family-secondary;
+		font-size: 14px;
+	}
+	.journey-p {
+		margin-top: 0;
+		font-family: $font-family-secondary;
+		font-size: 12px;
+		text-align: left;
+		width: 100%;
+		color: rgb(104, 108, 115);
+		padding: 0;
+	}
 }

@@ -7,7 +7,8 @@ header.page-header
 			nav.nav-menu
 				ul.menu-items
 					li.menu-item
-						a.menu-link.after-menu(href="") Investing
+						a.menu-link(href="") Investing
+							span.after-menu
 						ul.submenu
 							li.submenu-items
 								a(href="") Automated investing
@@ -16,7 +17,8 @@ header.page-header
 							li.submenu-items
 								a(href="") Portfolio options
 					li.menu-item
-						a.menu-link.after-menu(href="") Banking
+						a.menu-link(href="") Banking
+							span.after-menu
 						ul.submenu
 							li.submenu-items
 								a(href="") Checking
@@ -24,7 +26,8 @@ header.page-header
 								a(href="") Cash Reserve
 
 					li.menu-item
-						a.menu-link.after-menu(href="") Planning
+						a.menu-link(href="") Planning
+							span.after-menu
 						ul.submenu
 							li.submenu-items
 								a(href="") Retirement planning
@@ -36,7 +39,8 @@ header.page-header
 					li.menu-item
 						a.menu-link(href="") Rewards
 					li.menu-item
-						a.menu-link.after-menu(href="") About
+						a.menu-link(href="") About
+							span.after-menu
 						ul.submenu
 							li.submenu-items
 								a(href="") Who we are
@@ -54,10 +58,14 @@ header.page-header
 					li.btn-log
 						a.login(href="") Log in
 					li.btn-getstarted
-						a(href="") Get started
+						button.bt-getstarted  Get started
 			div.burger
-				button.menu
-					+icon-mono("cross")(class="icon-cross")
-					+icon-mono("menu")(class="icon-menu")
+				div.menu
+
+					img.icon-cross(src="./images/common/cross.svg", alt="")
+
+					img.icon-menu(src="./images/common/menu.svg", alt="")
+
+
 
 
