@@ -213,7 +213,7 @@
 		position: relative;
 		left: 0;
 
-		bottom: 80%;
+		bottom: 70%;
 		margin-top: auto;
 		flex-direction: column-reverse;
 
@@ -318,7 +318,7 @@
 			left: 0;
 			right: 0;
 			background-color: #fff;
-			padding-top: 50px;
+			padding-top: 30px;
 			padding-bottom: 30px;
 			z-index: 99999;
 		}
@@ -329,8 +329,6 @@
 			z-index: 99;
 			top: 25%;
 			left: 90%;
-			right: 0;
-			bottom: 0;
 		}
 
 		.icon-menu {
@@ -432,7 +430,7 @@
 		align-items: center;
 		position: relative;
 		min-width: 385px;
-		bottom: 80%;
+		bottom: 75%;
 		margin-top: auto;
 		flex-direction: column-reverse;
 
@@ -520,6 +518,7 @@
 	.menu {
 		border: none;
 		background-color: transparent;
+
 		&.active {
 			background-image: url(../images/common/logo2.svg);
 			border-bottom: 1px solid #e1e5eb;
@@ -529,11 +528,9 @@
 
 			background-repeat: no-repeat;
 			position: fixed;
-			top: 0;
-			left: 0;
-			right: 0;
+
 			background-color: #fff;
-			padding-top: 50px;
+			padding-top: 30px;
 			padding-bottom: 30px;
 			z-index: 99999;
 		}
@@ -544,8 +541,6 @@
 			z-index: 99;
 			top: 25%;
 			left: 90%;
-			right: 0;
-			bottom: 0;
 		}
 
 		.icon-menu {
@@ -560,11 +555,9 @@
 	}
 	.backdrop {
 		position: relative;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
+
 		width: 100%;
+		height: 100%;
 
 		z-index: 10;
 
