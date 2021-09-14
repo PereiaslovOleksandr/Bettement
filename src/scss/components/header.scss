@@ -283,7 +283,7 @@
 		position: absolute;
 		left: 91.5%;
 		content: " ";
-		background-image: url(/images/common/arrow2.svg);
+		background-image: url(../images/common/arrow2.svg);
 		background-repeat: no-repeat;
 		width: 20px;
 		height: 20px;
@@ -306,7 +306,7 @@
 		border: none;
 		background-color: transparent;
 		&.active {
-			background-image: url(/images/common/logo2.svg);
+			background-image: url(../images/common/logo2.svg);
 			content: "";
 			background-size: 25%;
 			background-position: center left 20px;
@@ -500,7 +500,7 @@
 		position: absolute;
 		left: 91.5%;
 		content: " ";
-		background-image: url(/images/common/arrow2.svg);
+		background-image: url(../images/common/arrow2.svg);
 		background-repeat: no-repeat;
 		width: 20px;
 		height: 20px;
@@ -521,7 +521,7 @@
 		border: none;
 		background-color: transparent;
 		&.active {
-			background-image: url(/images/common/logo2.svg);
+			background-image: url(../images/common/logo2.svg);
 			border-bottom: 1px solid #e1e5eb;
 			content: "";
 			background-size: 30%;
