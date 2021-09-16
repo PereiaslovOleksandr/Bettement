@@ -12,10 +12,13 @@
 @import "./components/journey.scss";
 @import "./components/sectionthree.scss";
 @import "./components/sectionbtn.scss";
+@import "./components/radiobtn.scss";
 @import "./components/footer.scss";
 // @import "./components/sectionone.scss";
 // @import "./components/sectionanimation.scss";
 
 body {
 	background-color: #f3f4f8;
+	font-size: 16px;
+	font-family: $font-family-secondary;
 }
