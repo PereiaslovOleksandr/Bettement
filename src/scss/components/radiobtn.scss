@@ -168,6 +168,8 @@
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
+	background-image: url(/images/common/cross.svg);
+	background-size: contain;
 
 	background-color: #fff;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -316,4 +318,135 @@
 	margin: 0;
 	text-align: center;
 	margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+	.form-radio-group {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+		height: 70px;
+		width: 900px;
+		max-width: 750px;
+		border-radius: 50px;
+		z-index: 99;
+		background: #fff;
+	}
+	.form-radio-group label {
+		display: inline-block;
+		cursor: pointer;
+		padding: 0;
+		line-height: 34px;
+		height: 70px;
+		border-right: none;
+		user-select: none;
+		align-items: center;
+		text-align: center;
+		display: flex;
+		transition: cubic-bezier(0, 0.01, 1, 0.99) 0.5s;
+	}
+}
+@media (max-width: 771px) {
+	.form-radio-group {
+		margin: 0 auto;
+		height: 70px;
+		width: 100%;
+		max-width: 100%;
+		border-radius: 50px;
+		z-index: 99;
+		background: #fff;
+	}
+	.form-radio-group label {
+		display: inline-block;
+		cursor: pointer;
+		padding: 0;
+		line-height: 34px;
+		height: 70px;
+		border-right: none;
+		user-select: none;
+		align-items: center;
+		text-align: center;
+		display: flex;
+		transition: cubic-bezier(0, 0.01, 1, 0.99) 0.5s;
+	}
+}
+@media (max-width: 706px) {
+	.form-radio-group {
+		margin: 0 auto;
+		height: 70px;
+		width: 100%;
+
+		border-radius: 50px;
+		z-index: 99;
+		background: #fff;
+		color: #000;
+	}
+	.form-radio-group label {
+		cursor: pointer;
+		padding: 0;
+		line-height: 34px;
+		height: 70px;
+		border-right: none;
+		user-select: none;
+		align-items: center;
+		text-align: center;
+		display: flex;
+	}
+	.form-radio-group-item {
+		display: flex;
+		margin: 0;
+		margin-left: 5px;
+	}
+	.input-sec-p {
+		color: #fff;
+		font-size: 24px;
+		font-family: $font-family-secondary;
+		text-align: center;
+		margin: 0;
+		padding-top: 10px;
+	}
+	.input-sec-b {
+		padding-top: 30px;
+		color: #fff;
+		font-size: 50px;
+		font-family: $font-family-primary;
+		margin: 0;
+		text-align: center;
+		display: block;
+	}
+	.input-secondary-p {
+		color: #fff;
+		font-size: 16px;
+		font-family: $font-family-secondary;
+		text-align: center;
+		margin: 0;
+		padding-top: 25px;
+		padding-bottom: 40px;
+	}
+
+	.p-sec-input {
+		color: #fff;
+		font-size: 12px;
+		font-family: $font-family-secondary;
+		text-align: center;
+		padding-top: 150px;
+		padding-bottom: 10px;
+	}
+
+	.btn-input {
+		height: 50px;
+		width: 320px;
+		border: none;
+		background-color: orange;
+
+		text-align: center;
+		display: block;
+		align-items: center;
+		cursor: pointer;
+
+		&:hover {
+			color: #fff;
+		}
+	}
 }

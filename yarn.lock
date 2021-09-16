@@ -1309,6 +1309,11 @@
     "mime-types" "~2.1.24"
     "negotiator" "0.6.2"
 
+"accordion-js@^3.1.1":
+  "integrity" "sha512-Qd73L5pk8wzLbkv9cgpxiQHujn3DkuBI5ebFRh5Up5N/xiQxHyV3QVIbTLfE1Cvk+rZb9eymVlrn1pkgj7b4Iw=="
+  "resolved" "https://registry.npmjs.org/accordion-js/-/accordion-js-3.1.1.tgz"
+  "version" "3.1.1"
+
 "acorn-globals@^3.0.0":
   "integrity" "sha1-/YJw9x+7SZawBPqIDuXUZXOnMb8="
   "resolved" "https://registry.npmjs.org/acorn-globals/-/acorn-globals-3.1.0.tgz"
