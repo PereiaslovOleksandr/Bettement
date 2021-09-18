@@ -1,6 +1,6 @@
 const trigger = document.querySelector(".burger"); // or whatever triggers the toggle
 const element = document.querySelector(".menu ");
-const body = document.querySelector(".page-home");
+const body = document.querySelector("body");
 
 console.log(trigger);
 

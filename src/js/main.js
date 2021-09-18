@@ -14,15 +14,15 @@ ScrollReveal().reveal(".headline5", { delay: 800, distance: "50px" });
 ScrollReveal().reveal(".headline6", { delay: 900, distance: "50px" });
 
 const trigger = document.querySelector(".burger"); // or whatever triggers the toggle
-const element = document.querySelector(".nav-menu ");
+// const element = document.querySelector(".nav-menu ");
 const body = document.querySelector("body");
 
 console.log(trigger);
 
 trigger.addEventListener("click", function (e) {
 	e.preventDefault();
-	element.classList.toggle("active"); // or whatever your active class is
-	body.classList.toggle("active"); // or whatever your active class is
+	// element.classList.toggle("active"); // or whatever your active class is
+	body.classList.toggle("menu-active"); // or whatever your active class is
 });
 
 const refs = {
@@ -41,3 +41,19 @@ function toggleModal() {
 }
 
 function logBackdropClick() {}
+
+$(document).ready(function () {
+	$("#nav > li > a").click(function () {
+		if ($(this).attr("class") != "active") {
+			$(this).next().slideToggle();
+			$(this).addClass("active");
+		} else {
+			$(this).next().slideToggle();
+			$("#nav li a").removeClass("active");
+		}
+	});
+
+	var toActivate = $(".activate-on-load");
+	toActivate.next().slideToggle();
+	toActivate.addClass("active");
+});

@@ -1,0 +1,63 @@
+nav#mobile-menu
+	ul.menu-items
+
+		li.menu-item
+			a.menu-link.collapsed(type='button' href="" data-bs-toggle='collapse' data-bs-target='#collapseThree' aria-expanded='false' aria-controls='collapseThree') Investing
+				span.after-menu
+
+			ul#collapseThree.accordion-collapse.collapse(aria-labelledby='headingThree' data-bs-parent='#mobile-menu').bgmenu
+				li.submenu-items
+					a(href="") Automated investing
+				li.submenu-items
+					a(href="") IRAs and 401(k)
+				li.submenu-items
+					a(href="") Portfolio options
+
+		li.menu-item
+			a.menu-link.collapsed(type='button' href="#" data-bs-toggle='collapse' data-bs-target='#collapse_02' aria-expanded='false' aria-controls='collapseThree') Banking
+				span.after-menu
+
+			ul#collapse_02.accordion-collapse.collapse(aria-labelledby='headingThree' data-bs-parent='#mobile-menu').bgmenu
+				li.submenu-items
+					a(href="") Checking
+				li.submenu-items
+					a(href="") Cash Reserve
+
+		li.menu-item
+			a.menu-link.collapsed(type='button' href="#" data-bs-toggle='collapse' data-bs-target='#collapse_03' aria-expanded='false' aria-controls='collapseThree') Planning
+				span.after-menu
+
+			ul#collapse_03.accordion-collapse.collapse(aria-labelledby='headingThree' data-bs-parent='#mobile-menu').bgmenu
+				li.submenu-items
+					a(href="") Retirement planning
+				li.submenu-items
+					a(href="") Track your goals
+				li.submenu-items
+					a(href="") All-in-one dashboard
+
+		li.menu-item
+			a.menu-link(href="") Rewards
+
+		li.menu-item
+			a.menu-link.collapsed(type='button' href="#" data-bs-toggle='collapse' data-bs-target='#collapse_04' aria-expanded='false' aria-controls='collapseThree') About
+				span.after-menu
+
+			ul#collapse_04.accordion-collapse.collapse(aria-labelledby='headingThree' data-bs-parent='#mobile-menu').bgmenu
+				li.submenu-items
+					a(href="") Who we are
+				li.submenu-items
+					a(href="") Investment Philosophy
+				li.submenu-items
+					a(href="") Press
+				li.submenu-items
+					a(href="") Pricing
+				li.submenu-items
+					a(href="") FAQ
+				li.submenu-items
+					a(href="") Articles
+
+			ul.button-header
+				li.btn-log
+					a.login(href="") Log in
+				li.btn-getstarted
+					button.bt-getstarted  Get started
