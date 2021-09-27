@@ -33,6 +33,7 @@
 }
 .menu-item {
 	position: relative;
+	color: #fff;
 }
 
 .flex-element {
@@ -60,6 +61,7 @@
 
 .submenu {
 	position: absolute;
+
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -97,8 +99,8 @@
 	transition: 0.2s;
 
 	&:hover {
-		color: #1d6ae5;
-		cursor: pointer;
+		color: #1d6ae5 !important;
+		cursor: pointer !important;
 	}
 }
 

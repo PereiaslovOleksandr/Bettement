@@ -43,19 +43,6 @@ function toggleModal() {
 
 function logBackdropClick() {}
 
-let sliderNavItem = $(".slider-nav > .slide");
-let sliderPreview = $(".slider-preview");
-
-$(document).on("click", ".slider-nav > .slide:not(.disabled)", function () {
-	sliderNavItem.removeClass("active");
-	sliderNavItem.addClass("disabled");
-
-	sliderPreview.slick("slickGoTo", $(this).index(), $(this).addClass("active"));
-});
-
-sliderPreview.on("afterChange", function (e, slick, curretntSlide) {
-	sliderNavItem.removeClass("disabled");
-});
 var menuNav = [
 	" Steady",
 	"Focused",
