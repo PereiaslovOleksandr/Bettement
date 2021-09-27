@@ -1,6 +1,7 @@
 import "focus-visible";
 import lazyImages from "./modules/lazyImages";
 import documentReady from "./helpers/documentReady";
+
 import "./menucross";
 
 documentReady(() => {
@@ -41,3 +42,34 @@ function toggleModal() {
 }
 
 function logBackdropClick() {}
+
+let sliderNavItem = $(".slider-nav > .slide");
+let sliderPreview = $(".slider-preview");
+
+$(document).on("click", ".slider-nav > .slide:not(.disabled)", function () {
+	sliderNavItem.removeClass("active");
+	sliderNavItem.addClass("disabled");
+
+	sliderPreview.slick("slickGoTo", $(this).index(), $(this).addClass("active"));
+});
+
+sliderPreview.on("afterChange", function (e, slick, curretntSlide) {
+	sliderNavItem.removeClass("disabled");
+});
+var menuNav = [
+	" Steady",
+	"Focused",
+	"Driven",
+	"Exploring",
+	"Adventurous",
+	"Pioneering",
+];
+var mySwiper = new Swiper(".swiper-container", {
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+		renderBullet: function (index, className) {
+			return '<span class="' + className + '">' + menuNav[index] + "</span>";
+		},
+	},
+});

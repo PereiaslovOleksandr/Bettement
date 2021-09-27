@@ -1,17 +1,20 @@
 .img-journey {
-	width: 100%;
-	background-image: url(../images/common/journey.png);
-	background-size: 100% 100%;
-	min-width: 100%;
-	min-height: 500px;
-	background-position: center;
+	background-color: #caffdb;
+	background-image: url("../images/common/bikers.svg");
 	background-repeat: no-repeat;
+	background-size: 80% 100%;
+	background-position: bottom left 140%;
+}
+.img-jour {
+	width: 80%;
+	display: block;
 }
 .journey-h2 {
 	margin-top: 0;
 	font-family: $font-family-secondary;
 	font-size: 28px;
-	padding-top: 150px;
+	padding-top: 170px;
+	margin-bottom: 20px;
 }
 .journey-p {
 	margin-top: 0;
@@ -21,57 +24,132 @@
 	width: 500px;
 	color: rgb(104, 108, 115);
 }
+.containertwo {
+	display: inline-block;
+	padding-bottom: 130px;
+}
 
-@media (max-width: 991px) {
+@media (max-width: 1440px) {
 	.img-journey {
-		background-image: url(../images/common/journey2.jpeg);
-
-		background-position: center;
+		background-color: #caffdb;
+		background-image: url("../images/common/bikers.svg");
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		min-width: 100%;
-		min-height: 300px;
+		background-size: 80% 80%;
+		background-position: top 140% left 140%;
 	}
+
 	.journey-h2 {
 		margin-top: 0;
 		font-family: $font-family-secondary;
-		font-size: 18px;
-		padding-top: 0;
+		font-size: 28px;
+		padding-top: 170px;
+		margin-bottom: 20px;
 	}
 	.journey-p {
 		margin-top: 0;
 		font-family: $font-family-secondary;
 		font-size: 16px;
 		text-align: left;
-		width: 100%;
+		width: 500px;
 		color: rgb(104, 108, 115);
-		padding: 0;
+	}
+	.containertwo {
+		display: inline-block;
+		padding-bottom: 130px;
+	}
+}
+@media (max-width: 991px) {
+	.img-journey {
+		background-color: #caffdb;
+		background-image: url("../images/common/bikers.svg");
+		background-repeat: no-repeat;
+		background-size: 70% 70%;
+		background-position: center top 140%;
+	}
+
+	.journey-h2 {
+		margin-top: 0;
+		font-family: $font-family-secondary;
+		font-size: 28px;
+		padding-top: 30px;
+		margin-bottom: 20px;
+	}
+	.journey-p {
+		margin-bottom: 80px;
+		margin-top: 0;
+		font-family: $font-family-secondary;
+		font-size: 16px;
+		text-align: left;
+		width: 500px;
+		color: rgb(104, 108, 115);
+	}
+	.containertwo {
+		display: inline-block;
+		padding-bottom: 130px;
+		margin-left: 60px;
 	}
 }
 
-@media (max-width: 597px) {
+@media (max-width: 706px) {
 	.img-journey {
-		background-image: url(../images/common/journey3.jpeg);
-
-		background-position: center;
+		background-color: #caffdb;
+		background-image: url("../images/common/bikers.svg");
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		min-height: 200px;
+		background-size: 50% 50%;
+		background-position: center top 120%;
 	}
+
 	.journey-h2 {
-		padding-top: 0;
 		margin-top: 0;
-		margin-bottom: 5px;
 		font-family: $font-family-secondary;
-		font-size: 14px;
+		font-size: 28px;
+		padding-top: 30px;
+		margin-bottom: 20px;
 	}
 	.journey-p {
+		margin-bottom: 80px;
+		margin-top: 0;
+		font-family: $font-family-secondary;
+		font-size: 16px;
+		text-align: left;
+		width: 500px;
+		color: rgb(104, 108, 115);
+	}
+	.containertwo {
+		width: 340px;
+		display: inline-block;
+		padding-bottom: 130px;
+		margin-left: 60px;
+	}
+}
+@media (max-width: 597px) {
+	.img-journey {
+		background-color: #caffdb;
+		background-image: url("../images/common/bikers.svg");
+		background-repeat: no-repeat;
+		background-size: 50% 50%;
+		background-position: center top 130%;
+	}
+
+	.journey-h2 {
+		margin-top: 0;
+		font-family: $font-family-secondary;
+		font-size: 18px;
+		padding-top: 30px;
+		margin-bottom: 20px;
+		width: 300px;
+	}
+	.journey-p {
+		margin-bottom: 80px;
 		margin-top: 0;
 		font-family: $font-family-secondary;
 		font-size: 12px;
 		text-align: left;
-		width: 100%;
+		width: 300px;
 		color: rgb(104, 108, 115);
-		padding: 0;
+	}
+	.containertwo {
+		width: 400px;
+		text-align: start;
 	}
 }

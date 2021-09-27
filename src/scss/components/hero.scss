@@ -55,8 +55,8 @@
 	width: 565px;
 	color: #fff;
 	font-family: $font-family-primary;
-	margin-left: 45px;
-	padding-bottom: 20px;
+	margin-left: 0px;
+	padding-bottom: 40px;
 }
 .p-text {
 	font-size: 24px;
@@ -110,8 +110,10 @@
 		flex-direction: column;
 		margin-left: auto;
 		margin-right: auto;
-
 		padding-bottom: 400px;
+		width: 50%;
+		padding-top: 30px;
+		margin-bottom: 30px;
 	}
 
 	.bg-holder {
@@ -146,10 +148,10 @@
 	}
 	.hero-main-text {
 		flex-direction: column;
-		max-width: 298px;
-		padding-bottom: 400px;
+		right: 18%;
 		margin-left: auto;
 		margin-right: auto;
+		width: 136%;
 	}
 
 	.bg-holder {
@@ -163,7 +165,8 @@
 
 		background-position: center bottom;
 
-		background-size: 600px;
+		background-size: 349px;
+		overflow-x: hidden;
 	}
 	.hero-text-castom {
 		font-size: 40px;

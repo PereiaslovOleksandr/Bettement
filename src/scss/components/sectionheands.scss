@@ -2,7 +2,8 @@
 	font-size: 16px;
 	font-family: font-family-secondary;
 
-	padding-bottom: 120px;
+	padding-bottom: 30px;
+	padding-top: 50px;
 }
 
 .bg-images-heands {
@@ -109,7 +110,7 @@
 	}
 	.heands-h3 {
 		font-family: $font-family-secondary;
-		font-size: 28px;
+		font-size: 18px;
 		font-weight: 600;
 		max-width: 100%;
 		padding-top: 50px;
@@ -122,16 +123,17 @@
 		display: inline-block;
 		width: 100%;
 		line-height: 24px;
-		font-size: 16px;
+		font-size: 12px;
 		font-family: $font-family-secondary;
 		color: rgb(104, 108, 115);
 		text-align: left;
 		margin: 0;
 		margin-bottom: 40px;
+		max-width: 250px;
 	}
 	.heands-h2 {
 		font-family: $font-family-secondary;
-		font-size: 28px;
+		font-size: 24px;
 		font-weight: 600;
 		width: 100%;
 		padding-bottom: 40px;

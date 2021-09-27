@@ -90,6 +90,7 @@
     "jquery": "^3.6.0",
     "normalize.css": "^8.0.1",
     "scrollreveal": "^4.0.9",
+    "swiper": "^7.0.6",
     "vanilla-lazyload": "^17.4.0",
     "vue-sidebar-menu": "^4.8.1"
   },
