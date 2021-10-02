@@ -1,6 +1,9 @@
 .page-header {
 	background-color: #1d6ae5;
 }
+.fff {
+	overflow: unset;
+}
 .logo-main {
 	display: block;
 	width: 112px;
@@ -46,6 +49,9 @@
 	border: 1px solid #0000;
 	align-items: center;
 	display: flex;
+	&:hover {
+		color: #fff;
+	}
 }
 .after-menu::after {
 	content: " ";
@@ -122,6 +128,11 @@
 		color: #fff;
 		font-family: $font-family-secondary;
 		font-size: 16px;
+		.login {
+			&:hover {
+				color: white;
+			}
+		}
 		&::after {
 			content: "";
 			position: absolute;
