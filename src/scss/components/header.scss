@@ -118,10 +118,7 @@
 .button-header {
 	display: flex;
 	align-items: center;
-
-	position: absolute;
-	left: 75%;
-	z-index: 3;
+	margin-left: auto;
 	.btn-log {
 		position: relative;
 		margin-right: 40px;
@@ -174,6 +171,9 @@
 }
 
 @media (max-width: 991px) {
+	.button-header {
+		visibility: hidden;
+	}
 	#mobile-menu {
 		position: absolute;
 		top: 0;
@@ -225,7 +225,7 @@
 		justify-content: space-between;
 		border-bottom: 1px solid #e1e5eb;
 	}
-	.button-header {
+	.button-header-mobile {
 		display: flex;
 		align-items: center;
 		position: relative;
