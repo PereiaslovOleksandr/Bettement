@@ -234,6 +234,8 @@
 		bottom: 70%;
 		margin-top: auto;
 		flex-direction: column-reverse;
+		padding-left: 15px;
+		padding-right: 15px;
 
 		.btn-log {
 			position: absolute;
@@ -243,15 +245,14 @@
 			margin-bottom: 15px;
 			color: #fff;
 			border: 1px solid #9ea2a8;
-			min-width: 525px;
+			width: 421px;
 			padding: 10px;
 
 			text-align: center;
-			margin-left: 40px;
 		}
 		.btn-getstarted {
 			position: absolute;
-			min-width: 525px;
+			width: 400px;
 
 			top: 40px;
 
@@ -438,7 +439,7 @@
 		display: flex;
 		align-items: center;
 		position: relative;
-		min-width: 385px;
+
 		bottom: 75%;
 		margin-top: auto;
 		flex-direction: column-reverse;
@@ -455,7 +456,8 @@
 			padding: 10px;
 
 			text-align: center;
-			margin-left: 40px;
+			max-width: 250px;
+			width: 200px;
 		}
 		.btn-getstarted {
 			position: absolute;
@@ -468,7 +470,7 @@
 			font-family: inherit;
 			text-align: center;
 			background-color: #1d6ae5;
-			width: 224px;
+			width: 24px;
 			border: 0;
 			cursor: pointer;
 			font-family: "GT America";
