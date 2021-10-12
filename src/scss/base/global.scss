@@ -10,9 +10,6 @@
 }
 
 .container {
-	@media (min-width: 1200px) {
-		width: 1200px;
-	}
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 15px;
@@ -41,7 +38,7 @@
 		max-width: 524px;
 	}
 }
-@media (max-width: 565px) {
+@media (max-width: 596px) {
 	.container {
 		max-width: none;
 		overflow-x: hidden;
