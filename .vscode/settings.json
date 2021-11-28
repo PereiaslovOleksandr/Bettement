@@ -43,7 +43,7 @@
 	"material-icon-theme.folders.theme": "specific",
 	"explorer.sortOrder": "default",
 	"workbench.iconTheme": "material-icon-theme",
-	"workbench.colorTheme": "Dracula",
+	"workbench.colorTheme": "Dracula Soft",
 	"git.autofetch": true,
 	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
